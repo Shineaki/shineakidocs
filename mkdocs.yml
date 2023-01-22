@@ -1,5 +1,5 @@
-site_name: Adam on Azure
-repo_url: https://github.com/Shineaki/mkdocsonazure
+site_name: Shineaki Docs
+repo_url: https://github.com/Shineaki/shineakidocs
 nav:
   - Index: index.md
   - Section: section/index.md
