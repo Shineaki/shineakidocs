@@ -1,4 +1,5 @@
 site_name: Adam on Azure
+repo_url: https://github.com/Shineaki/mkdocsonazure
 nav:
   - Index: index.md
   - Section: section/index.md
@@ -13,7 +14,8 @@ theme:
     # - toc.integrate
   name: material
   icon:
-    logo: material/book-open-variant 
+    logo: material/book-open-variant
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
