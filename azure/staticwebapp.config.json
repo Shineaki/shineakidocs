@@ -1,0 +1,30 @@
+{
+    "trailingSlash": "auto",
+    "routes": [
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "administrator"
+            ]
+        },
+        {
+            "route": "/login",
+            "redirect": "/.auth/login/aad"
+        }
+    ],
+    "responseOverrides": {
+        "400": {
+            "rewrite": "/404.html"
+        },
+        "401": {
+            "redirect": "/login",
+            "statusCode": 302
+        },
+        "403": {
+            "rewrite": "/404.html"
+        },
+        "404": {
+            "rewrite": "/404.html"
+        }
+    }
+}
